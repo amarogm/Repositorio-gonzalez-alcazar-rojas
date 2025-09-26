@@ -1,0 +1,2 @@
+# Extra limpieza de datos
+### Para la limpieza de datos me falto decir que los países que no disponian de información de los jugadores, en conversación con la profesora decidimos elimnarla, para las variables cialitativas los nombres de jugadores estan iguales y el titulo de la variable esta igual que el otro, por ultimo al lado del pais decidimos hacer un jugador tipo, que es el promedio de los jugadores seleccionados 
