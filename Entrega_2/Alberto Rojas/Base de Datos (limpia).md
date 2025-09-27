@@ -1,7 +1,6 @@
 | nombre                  |   min_jugados |
 |:------------------------|--------------:|
 | Italia                  |               |
-
 | Jacopo Seghetti         |             0 |
 | Alessandro Nunziante    |          2746 |
 | Lapo Siviero            |          1574 |
@@ -23,7 +22,6 @@
 | Ismael Konaté           |          1116 |
 | Mattia Mosconi          |          1913 |
 | Australia               |               |
-
 | Steven Hall             |           780 |
 | Alex Robinson           |            96 |
 | Daniel Graskoski        |           900 |
@@ -48,7 +46,6 @@
 | Nathan Amanatidis       |           607 |
 | Tiago Quintal           |          1237 |
 | Argentina               |               |
-
 | Santino Barbi           |           270 |
 | Álvaro Busso            |             0 |
 | Alain Gómez             |             0 |
@@ -66,7 +63,6 @@
 | Maher Carrizo           |           836 |
 | Santino Andino          |          1313 |
 | Estados Unidos          |               |
-
 | Duran Ferree            |           270 |
 | Adam Beaudry            |          1770 |
 | Diego Kochen            |          1440 |
@@ -91,7 +87,6 @@
 | Cole Campbell           |           988 |
 | Marcos Zambrano-Delgado |           420 |
 | Sudáfrica               |               |
-
 | Fletcher Lowe           |           718 |
 | Takalani Mazhamba       |             0 |
 | Kgoleng Ratisani        |             0 |
@@ -114,7 +109,6 @@
 | Ahshene Jody Lee        |           602 |
 | Langelihle Phili        |          1168 |
 | Francia                 |               |
-
 | Alexis Mirbach          |          1216 |
 | Justin Bengui Joao      |          1080 |
 | Lisandru Olmeta         |          1980 |
@@ -140,7 +134,6 @@
 | Keyliane Abdallah       |          1602 |
 | Mathys Detourbet        |          1274 |
 | Colombia                |               |
-
 | Alexei Rojas            |             0 |
 | Jordan García           |          1980 |
 | Luis Mena               |           360 |
@@ -167,7 +160,6 @@
 | Emilio Aristizábal      |          1826 |
 | Joel Canchimbo          |            93 |
 | Nigeria                 |               |
-
 | Rufai Abubakar          |             0 |
 | Ebenezer Harcourt       |            90 |
 | Clinton Ezekiel         |          1260 |
@@ -190,7 +182,6 @@
 | Salihu Nasiru           |          1297 |
 | Abdullahi Shitu         |             0 |
 | Noruega                 |               |
-
 | Magnus Brondbo          |          1530 |
 | Sander Østraat          |          1170 |
 | Einar Fauskanger        |          1170 |
