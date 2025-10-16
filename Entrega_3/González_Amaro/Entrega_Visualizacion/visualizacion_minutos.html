@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-3df9758bcf8db87420c096184c608804"}, "mark": {"type": "bar", "color": "steelblue"}, "encoding": {"tooltip": [{"field": "Seleccion", "type": "nominal"}, {"field": "Minutos_promedio", "type": "quantitative"}], "x": {"field": "Seleccion", "sort": null, "title": "Selecci\u00f3n", "type": "nominal"}, "y": {"field": "Minutos_promedio", "title": "Promedio de minutos jugados", "type": "quantitative"}}, "height": 500, "title": "Promedio de minutos jugados por selecci\u00f3n \u2013 Mundial Sub-20", "width": 900, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-3df9758bcf8db87420c096184c608804": [{"Seleccion": "Chile", "Minutos_promedio": 674.19}, {"Seleccion": "Jap\u00f3n", "Minutos_promedio": 813.65}, {"Seleccion": "Nueva Zelanda", "Minutos_promedio": 911.95}, {"Seleccion": "Egipto", "Minutos_promedio": 236.08}, {"Seleccion": "Ucrania", "Minutos_promedio": 1169.05}, {"Seleccion": "Corea del Sur", "Minutos_promedio": 852.95}, {"Seleccion": "Paraguay", "Minutos_promedio": 579.73}, {"Seleccion": "Panam\u00e1", "Minutos_promedio": 786.16}, {"Seleccion": "Brasil", "Minutos_promedio": 1513.81}, {"Seleccion": "M\u00e9xico", "Minutos_promedio": 177.48}, {"Seleccion": "Espa\u00f1a", "Minutos_promedio": 1498.76}, {"Seleccion": "Marruecos", "Minutos_promedio": 935.09}, {"Seleccion": "Italia", "Minutos_promedio": 1597.95}, {"Seleccion": "Australia", "Minutos_promedio": 693.13}, {"Seleccion": "Argentina", "Minutos_promedio": 574.87}, {"Seleccion": "Estados Unidos", "Minutos_promedio": 1393.39}, {"Seleccion": "Sud\u00e1frica", "Minutos_promedio": 478.76}, {"Seleccion": "Francia", "Minutos_promedio": 1150.88}, {"Seleccion": "Colombia", "Minutos_promedio": 768.54}, {"Seleccion": "Nigeria", "Minutos_promedio": 619.09}, {"Seleccion": "Noruega", "Minutos_promedio": 1165.85}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
