@@ -12,7 +12,7 @@ Visualización: Se utilizó Altair en Python para crear un gráfico de barras mo
 Exportación: Se generó un archivo HTML interactivo (visualizacion_minutos.html) y un JPG (visualizacion_minutos.jpg) para incluir en la crónica.
 
 
-3. Ficha técnica de la base de datos
+2. Ficha técnica de la base de datos
    
 Variables:
 
@@ -33,7 +33,7 @@ Ahora, como el Mundial está finalizando, planeamos buscar una fuente adicional 
 La base de datos fue seleccionada por su relevancia directa para la hipótesis sobre experiencia y desempeño.
 
 
-5. Ejemplos de preguntas que puede responder la visualización
+3. Ejemplos de preguntas que puede responder la visualización
    
 ¿Las selecciones sudamericanas tienen el mismo rodaje que las europeas en primera division?
 
