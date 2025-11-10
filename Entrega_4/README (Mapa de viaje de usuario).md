@@ -1,0 +1,3 @@
+# Link a Miro mapa de viaje de usuario
+
+https://miro.com/welcomeonboard/WmhYc2drTFBKUkpqdDZ0bHpiR3d5Zk5uMkt1Yy9FT2tCdnNoN3haQWNGUVVHMVJJZnNsc2R5bXNDc05nNFhBZ25Ocm4xb2NrR1pJWEc3a0tRdFBqYXJvUUpoWXUrRmpLUE5IVWVKR3ptU1JaUDNYRjgwN2FzbU1mU3NGTGZycUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=543821174995
