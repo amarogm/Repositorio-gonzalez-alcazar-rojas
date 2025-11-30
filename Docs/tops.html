@@ -1,32 +1,101 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Top 5 – Estadio de Datos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top’s – Estadio de Datos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@300;500;700&family=Lato:wght@300;400;700&display=swap" 
+rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="ed-header-page">
-    <h1>Top 5 del Torneo</h1>
-</header>
+<div class="ed-header__top fade-in">
 
-<section class="ed-section">
-    <h2>Contexto</h2>
-    <p>Aquí explicas por qué elegiste estos top 5 y qué miden.</p>
-</section>
+    <a href="index.html#top" class="ed-home-link">
+        <img src="img/logo-estadio.png" class="ed-logo-img-small">
+    </a>
 
-<section class="ed-section">
-    <h2>Gráfico</h2>
-    <div class="ed-placeholder ed-placeholder--grafico">
-        <p>[GRÁFICO DEL TOP 5]</p>
-    </div>
-</section>
+    <a href="index.html#top" class="ed-home-link">
+        <h1 class="ed-header-title">Estadio de Datos</h1>
+    </a>
 
-<section class="ed-section">
-    <h2>Análisis</h2>
-    <p>Qué revela el gráfico y por qué esos jugadores/equipos están arriba.</p>
+</div>
+
+<nav class="ed-nav fade-in">
+    <a href="index.html">Inicio</a>
+    <a href="jugadores.html">Datos de Jugadores</a>
+    <a href="pais.html">País por País</a>
+    <a href="comparaciones.html">Comparaciones</a>
+    <a href="tops.html" class="activo">Top’s</a>
+</nav>
+
+
+<div class="ed-hero fade-in">
+
+    <h1 class="ed-hero__title">
+        Top’s:
+        <span>miradas diferentes para entender el torneo</span>
+    </h1>
+
+    <p class="ed-hero__subtitle">
+        No son los Top’s típicos: buscamos patrones ocultos, sorpresas y tendencias nuevas.
+    </p>
+
+    <img src="img/minjugados.png"
+         alt="Top’s del torneo"
+         class="ed-hero-img">
+</div>
+
+
+<main>
+<section class="ed-section fade-in">
+<div class="ed-section__content">
+
+<h2>¿Qué Top’s verás aquí?</h2>
+
+<p>
+    Estos rankings no buscan repetir los típicos datos que ves en todos lados.
+    Aquí buscamos revelar nuevas perspectivas:  
+    — quién llegó con más ritmo,  
+    — quién sorprendió con menos minutos,  
+    — qué posiciones acumulan más carga competitiva.
+</p>
+
+<ul class="ed-list">
+    <li>Top goleadores por minutos jugados</li>
+    <li>Top selecciones con planteles más experimentados</li>
+    <li>Top jugadores con más rodaje previo</li>
+    <li>Top jóvenes promesas con pocos minutos</li>
+</ul>
+
+<div class="ed-placeholder ed-placeholder--grafico">
+    <p>Aquí irán los gráficos y tablas de tus Top’s</p>
+</div>
+
+</div>
 </section>
+</main>
+
+
+<div class="ed-restart-container">
+    <img src="img/pito.png" class="shake" onclick="location.href='#top'">
+</div>
+
+<footer class="ed-footer">
+<p>Estadio de Datos · Copa Mundial Sub-20 Chile 2025</p>
+</footer>
 
 </body>
 </html>
+

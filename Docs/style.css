@@ -1,34 +1,6 @@
-/* ================================
+/* =========================================================
    VARIABLES DE COLOR Y RESET
-================================== */
-/* Caja que contiene logo + título juntos */
-.ed-header__top {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 1.2rem;
-    z-index: 5;
-    position: relative;
-}
-
-/* Tamaño del logo pequeño */
-.ed-logo-img-small {
-    width: 58px;    /* AJUSTA AQUÍ si lo quieres más pequeño o más grande */
-    height: auto;
-    display: block;
-    object-fit: contain;
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.45));
-}
-
-/* Título al lado del logo */
-.ed-header-title {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.55rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--blanco);
-}
-
+========================================================= */
 :root {
     --verde-cancha: #3A9E3D;
     --verde-pasto: #7ED957;
@@ -37,13 +9,15 @@
     --blanco: #FFFFFF;
     --gris-claro: #E5E5E5;
     --gris-medio: #444444;
+
+    --fade-speed: 0.9s;
 }
 
-/* Reset básico */
+/* Reset */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -51,407 +25,359 @@ html {
 }
 
 body {
-    font-family: "Lato", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: radial-gradient(circle at top, #222 0%, #000 55%);
+    font-family: "Lato", system-ui, sans-serif;
+    background: radial-gradient(circle at top, #222 0%, #000 65%);
     color: var(--blanco);
-    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-/* ================================
-   TIPOGRAFÍA GENERAL
-================================== */
 
-h1, h2, h3, h4 {
-    font-family: "Oswald", "Montserrat", sans-serif;
-    letter-spacing: 0.03em;
+/* =========================================================
+   ANIMACIONES GLOBAL
+========================================================= */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: fadeIn var(--fade-speed) ease forwards;
 }
 
-h2 {
-    font-size: 2.1rem;
-    margin-bottom: 0.75rem;
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-h3 {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+.float-soft {
+    transition: transform .25s ease;
 }
 
-p, li {
-    font-size: 0.98rem;
+.float-soft:hover {
+    transform: translateY(-6px);
 }
 
-/* ================================
-   HEADER / PORTADA
-================================== */
+/* Shake botón pito */
+.shake:hover {
+    animation: shakeAnim 0.4s;
+}
+
+@keyframes shakeAnim {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
 
 .ed-header {
     min-height: 100vh;
     padding: 1.5rem 8vw 4rem;
-    background: linear-gradient(145deg, #000 0%, #0E2810 40%, #000 85%);
+    background: linear-gradient(145deg, #000, #0E2810 40%, #000);
     position: relative;
     overflow: hidden;
 }
 
-/* “Líneas de cancha” de adorno */
-.ed-header::before,
-.ed-header::after {
-    content: "";
-    position: absolute;
-    border: 2px solid rgba(255, 255, 255, 0.08);
-    border-radius: 32px;
-    width: 70%;
-    height: 70%;
-    top: 10%;
-    right: -10%;
-    transform: rotate(-8deg);
-}
-
-.ed-header::after {
-    width: 40%;
-    height: 40%;
-    top: auto;
-    bottom: -5%;
-    right: 10%;
-    transform: rotate(12deg);
-    border-color: rgba(126, 217, 87, 0.25);
-}
-
-/* Logo y nav */
-
-.ed-header__logo {
+.ed-header__top {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    position: relative;
-    z-index: 1;
+    gap: 12px;
+    margin-bottom: 1rem;
 }
 
-.ed-logo-text {
+.ed-logo-img-small {
+    width: 70px;
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+}
+
+.ed-header-title {
+    font-size: 1.6rem;
     font-family: "Oswald", sans-serif;
-    font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.1rem;
-    letter-spacing: 0.08em;
-    color: var(--verde-pasto);
 }
 
-/* Pelotita / ícono simple */
-.ed-header__logo::before {
-    content: "";
-    width: 18px;
-    height: 18px;
-    border-radius: 999px;
-    border: 3px solid var(--verde-pasto);
-    box-shadow: 0 0 0 2px rgba(126, 217, 87, 0.3);
-}
 
 /* NAV */
-
 .ed-nav {
     display: flex;
+    gap: .8rem;
     flex-wrap: wrap;
-    gap: 0.75rem;
-    margin: 1rem 0 2.5rem;
-    position: relative;
-    z-index: 1;
+    margin-bottom: 2rem;
 }
 
 .ed-nav a {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.09em;
-    padding: 0.4rem 0.8rem;
+    padding: .4rem .9rem;
+    border: 1px solid rgba(255,255,255,0.12);
     border-radius: 999px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--gris-claro);
-    transition: all 0.2s ease;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255,255,255,0.06);
+    transition: .2s;
 }
 
 .ed-nav a:hover {
     border-color: var(--verde-pasto);
     color: var(--blanco);
-    transform: translateY(-1px);
-    box-shadow: 0 0 12px rgba(126, 217, 87, 0.4);
+    box-shadow: 0 0 12px rgba(126,217,87,0.5);
 }
 
-/* HERO */
+
+/* =========================================================
+   HERO
+========================================================= */
 
 .ed-hero {
-    max-width: 760px;
-    margin-top: 2.5rem;
-    position: relative;
-    z-index: 1;
+    max-width: 1500px;
 }
 
-.ed-hero__title {
-    font-size: clamp(2.3rem, 4vw, 3.2rem);
-    line-height: 1.1;
-    text-transform: uppercase;
+.ed-hero__img-container {
+    display: flex;
+    justify-content: center;
+    margin: 1.8rem 0 2.2rem;
 }
 
-.ed-hero__title span {
-    display: block;
-    font-size: 0.7em;
-    font-weight: 400;
-    margin-top: 0.4rem;
-    color: var(--verde-pasto);
+/* HERO IMG MÁS GRANDE */
+.ed-hero-img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 0 28px rgba(0,0,0,.6),
+                0 0 24px rgba(126,217,87,.35);
 }
 
-.ed-hero__subtitle {
-    font-family: "Montserrat", sans-serif;
-    margin-top: 1.2rem;
-    max-width: 680px;
-    color: #f3f3f3;
-}
 
-.ed-hero__meta {
-    margin-top: 0.9rem;
-    font-size: 0.85rem;
-    color: var(--gris-medio);
-}
-
-.ed-hero__meta span + span::before {
-    content: "•";
-    margin: 0 0.4rem;
-    color: var(--gris-medio);
-}
-
-/* Botón CTA */
-
-.ed-hero__cta {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    margin-top: 2rem;
-    padding: 0.8rem 1.6rem;
-    border-radius: 999px;
-    background: var(--verde-cancha);
-    color: var(--blanco);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-    font-size: 0.9rem;
-    letter-spacing: 0.12em;
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    box-shadow:
-        0 8px 18px rgba(0, 0, 0, 0.8),
-        0 0 16px rgba(126, 217, 87, 0.4);
-    transition: transform 0.15s ease, box-shadow 0.15s ease,
-                background 0.15s ease;
-}
-
-.ed-hero__cta::after {
-    content: "▼";
-    font-size: 0.75rem;
-}
-
-.ed-hero__cta:hover {
-    transform: translateY(-2px);
-    background: #46b246;
-    box-shadow:
-        0 12px 22px rgba(0, 0, 0, 0.9),
-        0 0 24px rgba(126, 217, 87, 0.6);
-}
-
-/* ================================
+/* =========================================================
    SECCIONES GENERALES
-================================== */
+========================================================= */
 
 main {
-    background: radial-gradient(circle at top, #101810 0%, #020202 55%);
+    background: radial-gradient(circle at top, #0D140D 0%, #020202 60%);
 }
 
+/* MEJOR CONTRASTE ENTRE SECCIONES */
 .ed-section {
     padding: 4rem 8vw;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-    position: relative;
+    animation: fadeIn 1s ease forwards;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba(54, 50, 50, 0);
 }
 
 .ed-section:nth-of-type(2n) {
-    background: rgba(10, 10, 10, 0.9);
+    background: rgba(26, 24, 24, 0.795);
 }
 
 .ed-section__content {
     max-width: 980px;
-    margin: 0 auto;
+    margin: auto;
 }
 
-.ed-lead {
-    font-size: 1.1rem;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 0.7rem;
-    color: var(--verde-pasto);
+/* TEXTO MÁS GRANDE */
+p, li {
+    font-size: 1.12rem;
+    line-height: 1.55;
 }
 
-.ed-note {
-    margin-top: 1rem;
-    font-size: 0.85rem;
-    color: var(--gris-claro);
-    opacity: 0.85;
-}
 
-/* Listas */
+/* =========================================================
+   CONTEXTO
+========================================================= */
 
-.ed-list {
-    list-style: none;
-    margin: 1rem 0;
-    padding-left: 0;
-}
-
-.ed-list li {
-    position: relative;
-    padding-left: 1.1rem;
-    margin-bottom: 0.4rem;
-}
-
-.ed-list li::before {
-
-/* Contenedor de la imagen del hero */
-.ed-hero__img-container {
-    margin: 1.5rem 0 1.8rem;
+/* Intro – imagen centrada */
+.intro-img-container {
     display: flex;
     justify-content: center;
+    margin: 1.4rem 0 1.6rem;
 }
 
-/* Imagen del hero */
-.ed-hero-img {
-    width: 80%;
-    max-width: 420px;
+.intro-img {
+    width: 50px;
+    max-width: 70%;
     border-radius: 14px;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55),
-                0 0 22px rgba(126, 217, 87, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    object-fit: contain;
+    box-shadow: 0 0 20px rgba(0,0,0,.5),
+                0 0 14px rgba(56, 99, 38, 0.25);
+}
+
+.ed-contexto-layout {
+    display: flex;
+    gap: 22px;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+/* Imagen contexto un poco más grande */
+.contexto-img {
+    width: 200px;
+    border-radius: 14px;
     object-fit: cover;
 }
-/* FLEX de la sección contexto: imagen izquierda + texto derecha */
-.contexto-flex {
+
+
+/* =========================================================
+   METODOLOGÍA
+========================================================= */
+
+.ed-metodo-header {
     display: flex;
-    align-items: flex-start;
-    gap: 18px;            /* espacio entre imagen y texto */
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Imagen metodología MÁS GRANDE + ABAJO DEL TÍTULO */
+.metodo-icon {
+    width: 150px;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 14px;
+}
+
+
+/* =========================================================
+   SECCIÓN JUGADORES
+========================================================= */
+
+.jugadores-img-container {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.jugadores-img {
+    width: 190px;
+    border-radius: 14px;
+}
+
+
+/* =========================================================
+   PAÍS POR PAÍS
+========================================================= */
+
+.pais-contenedor {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.chilesub-img {
+    width: 190px;
+    border-radius: 14px;
+}
+
+
+/* =========================================================
+   COMPARACIONES
+========================================================= */
+
+.ed-comp-box {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.países-img {
+    width: 190px;
+    border-radius: 14px;
+}
+
+
+/* =========================================================
+   TOP'S
+========================================================= */
+
+.tops-img-container {
+    text-align: left;
+    margin: 1.2rem 0;
+}
+
+.tops-img {
+    width: 190px;
+    border-radius: 14px;
+}
+
+.tops-descripcion {
     margin-top: 1rem;
 }
 
-/* Imagen pequeña */
-.contexto-img-pequena {
-    width: 30px;        /* 👈 AJUSTA AQUÍ si la quieres más chica/grande */
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    flex-shrink: 0;      /* evita que la imagen se deforme */
+
+/* =========================================================
+   BOTÓN “PITO” REINICIAR
+========================================================= */
+
+.ed-restart-container {
+    text-align: center;
+    margin: 3rem 0;
 }
 
-/* Texto de contexto */
-.contexto-texto {
-    font-size: 1rem;
-    line-height: 1.5;
-    max-width: 30px;     /* controla el ancho */
-}
-/* CONTENEDOR GENERAL */
-.metodologia-container {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    justify-content: space-between;
+/* Pito más grande y centrado */
+.ed-restart-container img {
+    width: 120px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-/* GRÁFICO IZQUIERDA */
-.metodologia-grafico {
-    width: 180px;
-    height: 180px;
-    position: relative;
+.ed-restart-container img:hover {
+    animation: shakeAnim .4s;
 }
 
-/* CÍRCULO animado */
-.grafico-circulo {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #7ED957, #3A9E3D);
-    animation: pulso 2.3s infinite ease-in-out;
-    margin: 0 auto;
+
+
+/* Imagen del hero en la página jugadores */
+.ed-hero-img {
+    width: 90%;          /* AJUSTA AQUÍ */
+    max-width: 450px;
+    border-radius: 20px;
+    display: block;
+    margin: 2rem auto;
+    box-shadow: 
+        0 0 28px rgba(0,0,0,.6),
+        0 0 24px rgba(23, 53, 10, 0.35);
+}
+#tabla-jugadores-container {
+    margin-top: 2rem;
+    background: rgba(255,255,255,0.05);
+    padding: 1.5rem;
+    border-radius: 14px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 14px rgba(0,0,0,0.4);
 }
 
-@keyframes pulso {
-    0% { transform: scale(1); opacity: 0.9; }
-    50% { transform: scale(1.08); opacity: 1; }
-    100% { transform: scale(1); opacity: 0.9; }
-}
-
-/* BARRAS */
-.grafico-barra {
-    width: 26px;
-    height: 70px;
+#buscador {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
-    position: absolute;
-    bottom: 0;
-    background: var(--verde-pasto);
-    animation: barrasAnim 1.4s infinite alternate;
+    border: none;
+    font-size: 1rem;
 }
 
-.barra1 { left: 10px; animation-delay: 0s; }
-.barra2 { left: 60px; animation-delay: 0.3s; }
-.barra3 { left: 110px; animation-delay: 0.6s; }
-
-@keyframes barrasAnim {
-    0% { height: 40px; opacity: 0.7; }
-    100% { height: 95px; opacity: 1; }
+#tabla-jugadores {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-/* TEXTO DERECHA */
-.metodologia-texto {
-    max-width: 600px;
+#tabla-jugadores th {
+    background: var(--verde-cancha);
+    padding: 0.6rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
-.metodologia-texto a {
-    color: var(--verde-pasto);
-    text-decoration: none;
-    font-weight: 600;
+#tabla-jugadores td {
+    padding: 0.6rem;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-.metodologia-texto a:hover {
-    text-decoration: underline;
+#tabla-jugadores tr:hover {
+    background: rgba(255,255,255,0.08);
 }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .metodologia-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .metodologia-grafico {
-        margin-bottom: 1rem;
-    }
-}
-/* Contenedor para texto + imagen al lado */
-.ed-flex-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-/* Tamaño de las imágenes pequeñas */
-.mini-img {
-    width: 130px;   /* ajusta si lo quieres más chico */
-    height: auto;
-    border-radius: 10px;
-    object-fit: contain;
-}
-
-/* Para pantallas pequeñas */
-@media (max-width: 768px) {
-    .ed-flex-row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .mini-img {
-        width: 150px;
-        margin-top: 10px;
-    }
+/* Espaciado personalizado entre líneas */
+.espacio {
+    height: 18px;   /* Ajusta el tamaño si quieres más o menos espacio */
 }

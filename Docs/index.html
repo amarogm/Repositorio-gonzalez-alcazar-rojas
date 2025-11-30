@@ -11,125 +11,147 @@
     <!-- Tipografías -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@300;500;700&family=Lato:wght@300;400;700&family=Poppins:wght@300;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@300;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- HEADER / PORTADA -->
-    <header class="ed-header" id="top">
+<!-- ========================================================
+     HEADER / PORTADA
+======================================================== -->
+<header class="ed-header" id="top">
 
-        <div class="ed-header__top">
-            <img src="img/logo-estadio.png" alt="Logo Estadio de Datos" class="ed-logo-img-small">
-            <h1 class="ed-header-title">Estadio de Datos</h1>
+    <div class="ed-header__top fade-in">
+        <img src="img/logo-estadio.png" class="ed-logo-img-small float-soft">
+        <h1 class="ed-header-title">Estadio de Datos</h1>
+    </div>
+
+    <!-- NAV -->
+    <nav class="ed-nav fade-in">
+        <a href="#intro">Inicio</a>
+        <a href="#contexto">Contexto</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#jugadores">Datos de Jugadores</a>
+        <a href="#pais">País por País</a>
+        <a href="#comparaciones">Comparaciones</a>
+        <a href="#tops">Top’s</a>
+        <a href="#conclusiones">Conclusiones</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="ed-hero fade-in">
+        <h1 class="ed-hero__title">
+            Copa Mundial Sub-20 Chile 2025:
+            <span>cuando el fútbol se transforma en datos</span>
+        </h1>
+
+        <p class="ed-hero__subtitle">
+            Un mundial donde las estadísticas te dan otra mirada...
+        </p>
+
+        <!-- Imagen HERO -->
+        <div class="ed-hero__img-container float-soft">
+            <img src="img/foto1.png" alt="Imagen Estadio de Datos" class="ed-hero-img">
         </div>
 
-        <!-- NAV → SE MANTIENE IGUAL, NO ABRE NUEVAS PESTAÑAS -->
-        <nav class="ed-nav">
-            <a href="#intro">Inicio</a>
-            <a href="#contexto">Contexto</a>
-            <a href="#metodologia">Metodología</a>
-            <a href="#jugadores">Datos de Jugadores</a>
-            <a href="#pais">País por País</a>
-            <a href="#comparaciones">Comparaciones</a>
-            <a href="#tops">Top’s</a>
-            <a href="#conclusiones">Conclusiones</a>
-        </nav>
+    </div>
 
-        <!-- HERO -->
-        <div class="ed-hero">
-            <h1 class="ed-hero__title">
-                Copa Mundial Sub-20 Chile 2025:
-                <span>cuando el fútbol se transforma en datos</span>
-            </h1>
+</header>
 
-            <p class="ed-hero__subtitle">
-                Un mundial donde las estadísticas te dan otra mirada...
-            </p>
 
-            <!-- Imagen entre subtítulo y botón -->
-            <div class="ed-hero__img-container">
-                <img src="img/foto1.png" alt="Imagen Estadio de Datos" class="ed-hero-img">
-            </div>
+<main>
 
-            <a href="#intro" class="ed-hero__cta">Entrar al estadio</a>
+
+<!-- SECCIÓN 1: INTRO -->
+<section id="intro" class="ed-section ed-section--intro fade-in">
+    <div class="ed-section__content">
+
+        <h2>La pregunta que nos hicimos</h2>
+
+        <!-- ESPACIO SOLICITADO -->
+        <div style="height: 12px;"></div>
+
+        <p class="ed-lead">
+            Todo comenzó con una intuición: ¿importan realmente los minutos jugados antes de llegar a un Mundial Sub-20?
+        </p>
+
+        <p>
+            ¿Existe una relación entre la experiencia previa de un plantel y su desempeño dentro del torneo?
+            ¿Sirve haber jugado más minutos durante la temporada?  
+            ¿O es un mito que el ritmo competitivo define quién llega más lejos?
+        </p>
+
+        <!-- IMAGEN CENTRADA ENTRE LOS DOS PÁRRAFOS -->
+        <div class="intro-img-container">
+            <img src="img/pelota.png" alt="Balón del Mundial Sub-20" class="intro-img float-soft">
         </div>
 
-    </header>
+        <p>
+            Con esa pregunta en mente, nos metimos al mundo de los datos.
+            Reunimos <strong>minutos jugados</strong>, <strong>edades</strong>, <strong>posiciones</strong>,
+            <strong>cargas de partidos</strong> y <strong>nóminas oficiales</strong>.
+            Queríamos encontrar un patrón, una señal, algo que explicara por qué algunas selecciones dominan
+            y otras quedan fuera demasiado pronto.  
+        </p>
 
-    <main>
-
-        <!-- SECCIÓN 1: INTRO -->
-        <section id="intro" class="ed-section ed-section--intro">
-            <div class="ed-section__content">
-                <h2>La pregunta que nos hicimos</h2>
-                <p class="ed-lead">
-                    ¿Existe una posible relación entre la cantidad de minutos jugados por los futbolistas antes del torneo y el desempeño general del equipo?
-                </p>
-                <p>
-                    Buscabamos encontrar algún dato estadístico que vaya de la mano con el rendimiento de las selecciones, nosotros partimos creyendo que el equipo que más minutos jugados por jugador tenía esta temporada, pero terminamos abriendo un poco el foco, para así darle un análisis en diferentes dimensiones, pero siempre de la mano con la experiencia de los jugadores previos al torneo.
-                </p>
-            </div>
-        </section>
+    </div>
+</section>
 
 <!-- SECCIÓN 2: CONTEXTO -->
-<section id="contexto" class="ed-section ed-section--context">
+<section id="contexto" class="ed-section ed-section--context fade-in">
     <div class="ed-section__content">
         <h2>El torneo: Chile como sede del mundo</h2>
 
         <div class="ed-contexto-layout">
-            <!-- IMAGEN PEQUEÑA A LA IZQUIERDA -->
-            <img src="img/logo.png" alt="Logo del torneo Sub-20 Chile 2025" class="contexto-img">
+
+            <!-- IMAGEN CLICKEABLE → abre la página oficial del mundial -->
+            <a href="https://www.fifa.com/es/tournaments/mens/u20worldcup/chile-2025" 
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="img/logo.png" 
+                     alt="Torneo Sub-20 Chile 2025" 
+                     class="contexto-img float-soft">
+            </a>
 
             <!-- TEXTO A LA DERECHA -->
             <div class="contexto-texto">
                 <p>
-                    El Mundial Sub-20 de Chile 2025 fue un torneo internacional de fútbol juvenil organizado por la FIFA, en el que participaron 24 selecciones de todo el mundo. La competición se disputó en Chile entre el 27 de septiembre y el 19 de octubre de 2025, convirtiendo al país en el centro del fútbol formativo durante esas semanas.
+                    El Mundial Sub-20 de Chile 2025 fue un torneo internacional de fútbol juvenil 
+                    organizado por la FIFA, en el que participaron 24 selecciones de todo el mundo. 
+                    La competición se disputó en Chile entre el 27 de septiembre y el 19 de octubre 
+                    de 2025, convirtiendo al país en el centro del fútbol formativo durante esas semanas.
                 </p>
             </div>
+
         </div>
     </div>
 </section>
 
 
-        <!-- SECCIÓN 3: METODOLOGÍA -->
-<section id="metodologia" class="ed-section ed-section--metodo">
+
+
+<!-- ========================================================
+     METODOLOGÍA (con ícono a la derecha)
+======================================================== -->
+<section id="metodologia" class="ed-section fade-in">
     <div class="ed-section__content">
 
-        <!-- Título + imagen a la derecha -->
         <div class="ed-metodo-header">
             <h2>¿Cómo analizamos el mundial?</h2>
-            <img src="img/datos.png" alt="Icono datos" class="metodo-icon">
-        </div>
 
+        </div>
+   <img src="img/datos.png" class="metodo-icon float-soft">
         <p class="ed-lead">
-            Sacamos datos de diferentes páginas que se especializan en estadísticas futbolísticas,
-            que fuimos juntando con los resultados y datos oficiales del mundial.
+            Sacamos datos de diferentes páginas...
         </p>
 
-        <ul class="ed-list ed-metodo-list">
-            <li>
-                <a href="https://www.transfermarkt.es/" target="_blank" rel="noopener noreferrer">
-                    <strong>Transfermarkt</strong>
-                </a>: Accedimos a los minutos jugados de cada jugador participante del mundial.
-            </li>
-            <li>
-                <a href="https://www.365scores.com/es-mx" target="_blank" rel="noopener noreferrer">
-                    <strong>365Scores</strong>
-                </a>: Pudimos obtener datos puntuales de cada jugador en el mundial.
-            </li>
-            <li>
-                <a href="https://www.espn.cl/futbol/liga/_/nombre/fifa.world.u20" target="_blank" rel="noopener noreferrer">
-                    <strong>ESPN</strong>
-                </a>: Sacamos la nómina de cada selección para el mundial.
-            </li>
-            <li>
-                <a href="https://www.sofascore.com/es/" target="_blank" rel="noopener noreferrer">
-                    <strong>Sofascore</strong>
-                </a>: Aquí encontramos datos específicos que las otras páginas no tenían.
-            </li>
+        <ul class="ed-list">
+            <li><a href="https://www.transfermarkt.es/" target="_blank">Transfermarkt</a>: minutos jugados de cada jugador.</li>
+            <li><a href="https://www.365scores.com/es-mx" target="_blank">365Scores</a>: datos puntuales de cada jugador.</li>
+            <li><a href="https://www.espn.cl" target="_blank">ESPN</a>: nóminas oficiales de las selecciones.</li>
+            <li><a href="https://www.sofascore.com/es" target="_blank">Sofascore</a>: datos específicos adicionales.</li>
         </ul>
 
     </div>
@@ -137,43 +159,47 @@
 
 
 
-        <!-- ========================================= -->
-        <!-- NUEVAS SECCIONES QUE ABREN OTRA PESTAÑA   -->
-        <!-- ========================================= -->
-
+<!-- ========================================================
+     JUGADORES
+======================================================== -->
 <!-- SECCIÓN DATOS DE JUGADORES -->
-<section id="jugadores" class="ed-section ed-section--stats">
+<section id="jugadores" class="ed-section ed-section--stats fade-in">
     <div class="ed-section__content">
 
-        <!-- TÍTULO → ABRE jugadores.html -->
         <h2>
             <a href="jugadores.html" target="_blank" class="ed-link-title">
                 Datos de Jugadores →
             </a>
         </h2>
 
-        <!-- PRIMER TEXTO -->
         <p>Análisis individual de todos los citados al mundial por selecciones.</p>
 
-        <!-- IMAGEN ENTRE AMBOS TEXTOS -->
-        <div class="jugadores-img-container">
-            <img src="img/jugador.png" alt="Jugador Mundial Sub-20" class="jugadores-img">
+        <!-- IMAGEN CLICKEABLE -->
+        <div class="tops-img-container">
+            <a href="jugadores.html" target="_blank">
+                <img src="img/jugador.png" 
+                     alt="Jugador Sub-20"
+                     class="tops-img float-soft">
+            </a>
         </div>
 
-        <!-- TEXTO LARGO -->
-        <div class="ed-placeholder ed-placeholder--grafico">
-            <p>
-                Aquí encontraras datos de tus jugadores favoritos de este mundial, esto aporta una vista general de cada miembro de los planteles, dentro de la información que encontrarás está: 
-                <strong>Nombre, Minutos jugados, País, Posición y Edad.</strong>
-            </p>
-        </div>
+        <!-- TEXTO DESCRIPTIVO -->
+        <p class="tops-descripcion">
+            Aquí encontrarás datos de tus jugadores favoritos de este mundial, una visión general 
+            de cada plantel. Podrás ver: <strong>Nombre, Minutos jugados, País, Posición y Edad.</strong>
+        </p>
 
     </div>
 </section>
 
 
-      <!-- SECCIÓN PAÍS POR PAÍS -->
-<section id="pais" class="ed-section ed-section--stats">
+
+
+<!-- ========================================================
+     PAÍS POR PAÍS
+======================================================== -->
+<!-- SECCIÓN PAÍS POR PAÍS -->
+<section id="pais" class="ed-section ed-section--stats fade-in">
     <div class="ed-section__content">
 
         <h2>
@@ -184,27 +210,34 @@
 
         <p>Análisis individual de cada selección.</p>
 
-        <div class="pais-contenedor">
-            
-            <!-- IMAGEN NUEVA -->
-            <img src="img/chilesub.png" alt="País por País" class="chilesub-img">
-
-            <!-- TEXTO -->
-            <div class="pais-texto">
-                En esta sección podrás encontrar diferentes gráficos que entregan datos de cada una 
-                de los participantes del mundial, empezando así a generar comparaciones en el ámbito 
-                que tú gustes.
-            </div>
-
+        <!-- IMAGEN CLICKEABLE -->
+        <div class="tops-img-container">
+            <a href="pais.html" target="_blank">
+                <img src="img/chilesub.png" 
+                     alt="País por país"
+                     class="tops-img float-soft">
+            </a>
         </div>
+
+        <!-- TEXTO DESCRIPTIVO -->
+        <p class="tops-descripcion">
+            En esta sección podrás encontrar gráficos que muestran información sobre cada una 
+            de las selecciones participantes, permitiendo hacer comparaciones detalladas entre países.
+        </p>
 
     </div>
 </section>
 
 
+
+
+<!-- ========================================================
+     COMPARACIONES
+======================================================== -->
 <!-- SECCIÓN COMPARACIONES -->
-<section id="comparaciones" class="ed-section ed-section--comparaciones">
+<section id="comparaciones" class="ed-section ed-section--comparaciones fade-in">
     <div class="ed-section__content">
+
         <h2>
             <a href="comparaciones.html" target="_blank" class="ed-link-title">
                 Comparaciones →
@@ -213,22 +246,32 @@
 
         <p>Comparación directa entre selecciones y continentes.</p>
 
-        <div class="ed-comp-box">
-            <img src="img/países.png" alt="Comparaciones" class="países-img">
-
-            <p class="comp-texto">
-                Se busca entregar una confrontación fuera de la cancha mediante las estadísticas.
-                Mostraremos gráficos que aportarán una mirada específica comparando selecciones,
-                países o rivales desde el punto de vista de los datos.
-            </p>
+        <!-- IMAGEN CLICKEABLE -->
+        <div class="tops-img-container">
+            <a href="comparaciones.html" target="_blank">
+                <img src="img/países.png" 
+                     alt="Comparaciones Sub-20"
+                     class="tops-img float-soft">
+            </a>
         </div>
+
+        <!-- TEXTO DESCRIPTIVO -->
+        <p class="tops-descripcion">
+            A través de gráficos comparativos podrás observar tendencias y diferencias entre 
+            selecciones, países y continentes desde la mirada estadística.
+        </p>
+
     </div>
 </section>
 
 
-
-        <section id="tops" class="ed-section ed-section--stats">
+<!-- ========================================================
+     TOPS
+======================================================== -->
+<!-- SECCIÓN TOP'S -->
+<section id="tops" class="ed-section ed-section--stats fade-in">
     <div class="ed-section__content">
+
         <h2>
             <a href="tops.html" target="_blank" class="ed-link-title">
                 Top’s →
@@ -237,52 +280,62 @@
 
         <p>Los mejores del torneo, pero no de los datos que estás acostumbrado.</p>
 
-        <div class="ed-placeholder ed-placeholder--grafico">
-            <div class="ed-flex-row">
-                <img src="img/minjugados.png" class="mini-img" alt="Minutos jugados">
-                <p>
-                    Se harán Top’s distintos a los típicos.  
-                    
-                    Mostraremos información que usualmente no se ve a simple vista, generando distintas perspectivas sobre el torneo.
-                </p>
+        <!-- CONTENEDOR CON IMAGEN CLICKEABLE -->
+        <div class="tops-img-container">
 
-               
-            </div>
+            <!-- IMAGEN → abre la pestaña tops.html -->
+            <a href="tops.html" target="_blank">
+                <img src="img/minjugados.png" 
+                     alt="Minutos jugados"
+                     class="tops-img float-soft">
+            </a>
+
         </div>
+
+        <!-- TEXTO DESCRIPTIVO ABAJO -->
+        <p class="tops-descripcion">
+            Se harán Top’s distintos a los típicos.  
+            Mostraremos información que usualmente no se ve a simple vista,
+            generando distintas perspectivas sobre el torneo.
+        </p>
+
     </div>
 </section>
 
 
-        <!-- SECCIÓN CONCLUSIONES -->
-        <section id="conclusiones" class="ed-section ed-section--conclusiones">
-            <div class="ed-section__content">
-                <h2>Conclusiones desde la tribuna de datos</h2>
 
-                <ul class="ed-list">
-                    <li>Conclusión 1</li>
-                    <li>Conclusión 2</li>
-                    <li>Conclusión 3</li>
-                </ul>
-            </div>
-        </section>
 
-    </main>
+<!-- ========================================================
+     CONCLUSIONES
+======================================================== -->
+<section id="conclusiones" class="ed-section fade-in">
+    <div class="ed-section__content">
+        <h2>Conclusiones desde la tribuna de datos</h2>
 
-    <div class="ed-restart-container">
-    <button onclick="location.href='#top'" class="ed-restart-btn">
-        🔔 Reiniciar el partido
-    </button>
+        <ul class="ed-list">
+            <li>Conclusión 1</li>
+            <li>Conclusión 2</li>
+            <li>Conclusión 3</li>
+        </ul>
+    </div>
+</section>
+
+
+</main>
+
+
+<!-- ========================================================
+     BOTÓN PITO (REINICIAR)
+======================================================== -->
+<div class="ed-restart-container fade-in">
+    <img src="img/pito.png" class="shake" onclick="location.href='#top'">
 </div>
 
-    <!-- FOOTER -->
-    <footer class="ed-footer">
-        <p>Estadio de Datos · Copa Mundial Sub-20 Chile 2025</p>
-    </button>
-</div>
 
-    </footer>
+<!-- FOOTER -->
+<footer class="ed-footer">
+    <p>Estadio de Datos · Copa Mundial Sub-20 Chile 2025</p>
+</footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>

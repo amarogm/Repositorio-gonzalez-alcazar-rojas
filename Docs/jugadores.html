@@ -1,32 +1,201 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos de Jugadores – Estadio de Datos</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@300;500;700&family=Lato:wght@300;400;700&display=swap" 
+rel="stylesheet">
+
+    <!-- CSS GENERAL -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="ed-header-page">
-    <h1>Datos de Jugadores</h1>
+<!-- ========================================================= -->
+<!-- 🔥 PORTADA IGUAL A LA PRINCIPAL PERO CON NUEVO TÍTULO   -->
+<!-- ========================================================= -->
+
+<!-- Logo + título (ambos clickeables, pero mantienen su posición lado a lado) -->
+<div class="ed-header__top fade-in">
+    
+    <!-- LOGO con link -->
+    <a href="http://127.0.0.1:5500/Docs/index.html#top" class="ed-home-link">
+        <img src="img/logo-estadio.png" 
+             alt="Logo Estadio de Datos" 
+             class="ed-logo-img-small">
+    </a>
+
+    <!-- TÍTULO con link -->
+    <a href="http://127.0.0.1:5500/Docs/index.html#top" class="ed-home-link">
+        <h1 class="ed-header-title">Estadio de Datos</h1>
+    </a>
+
+</div>
+
+
+
+    <!-- NAV MISMA ESTÉTICA -->
+    <nav class="ed-nav fade-in">
+        <a href="index.html">Inicio</a>
+        <a href="jugadores.html" class="activo">Datos de Jugadores</a>
+        <a href="pais.html">País por País</a>
+        <a href="comparaciones.html">Comparaciones</a>
+        <a href="tops.html">Top’s</a>
+    </nav>
+
+    <!-- HERO CON NUEVO TÍTULO -->
+    <div class="ed-hero fade-in">
+
+        <h1 class="ed-hero__title">
+            Datos de Jugadores:
+            <span>una mirada individual al Mundial Sub-20 Chile 2025</span>
+        </h1>
+
+        <p class="ed-hero__subtitle">
+            Revisa minuto a minuto quiénes fueron los protagonistas, cuánto jugaron,
+            cómo llegaron al torneo y qué historias cuentan sus números.
+        </p>
+
+<img src="img/jugador.png" 
+     alt="Jugadores Mundial Sub-20" 
+     class="ed-hero-img">
+
+</div>
+
+        </div>
+
+    </div>
+
 </header>
 
-<section class="ed-section">
-    <h2>Contexto</h2>
-    <p>Aquí explicas por qué analizas a los jugadores, qué datos usas, etc.</p>
-</section>
 
-<section class="ed-section">
-    <h2>Gráfico</h2>
-    <div class="ed-placeholder ed-placeholder--grafico">
-        <p>[GRÁFICO DEL JUGADOR]</p>
-    </div>
-</section>
+<!-- ========================================================= -->
+<!-- 🔽 CONTENIDO PRINCIPAL DE ESTA PESTAÑA (SECCIÓN 1) -->
+<!-- ========================================================= -->
 
-<section class="ed-section">
-    <h2>Análisis</h2>
-    <p>Aquí va tu análisis del gráfico: qué muestra, qué revela, qué significa.</p>
-</section>
+<main>
+
+    <section id="jugadores-info" class="ed-section fade-in">
+        <div class="ed-section__content">
+
+<h2>¿Qué encontrarás aquí?</h2>
+
+<div class="espacio"></div>
+
+<p>
+    Este apartado reúne la información individual de cada futbolista convocado
+    al Mundial Sub-20 Chile 2025. Aunque el fútbol es un deporte colectivo,
+    cada jugador llega con una historia distinta: algunos acumulan más de 2.000
+    minutos en la temporada, otros son jóvenes talentos que recién comienzan
+    a sumar sus primeros partidos profesionales.
+</p>
+
+<div class="espacio"></div>
+
+<p>
+    Aquí podrás explorar variables clave que revelan distintas dimensiones
+    del rendimiento: preparación, experiencia, ritmo competitivo y el camino
+    que recorrió cada jugador para llegar a este escenario mundial.
+</p>
+
+<ul class="ed-list">
+    <li>Minutos jugados en la temporada previa</li>
+    <li>Edad y posición de cada jugador</li>
+    <li>País y selección a la que pertenece</li>
+    <li>Carga de partidos y nivel de experiencia acumulada</li>
+</ul>
+
+<div class="espacio"></div>
+
+<p>
+    Aquí podrás insertar más adelante una tabla, gráfico o filtro interactivo.
+</p>
+</div>
+
+        </div>
+    </section>
+
+</main>
+
+<h2>Base de Datos Completa</h2>
+
+<p>Puedes explorar todos los jugadores del Mundial Sub-20, filtrar, buscar y ordenar la información.</p>
+
+<div id="tabla-jugadores-container">
+    <input type="text" id="buscador" placeholder="Buscar jugador...">
+
+    <table id="tabla-jugadores">
+        <thead id="tabla-head"></thead>
+        <tbody id="tabla-body"></tbody>
+    </table>
+</div>
+
+<script>
+    async function cargarJugadores() {
+        const response = await fetch("data_jugadores.csv");
+        const data = await response.text();
+
+        const filas = data.split("\n").map(f => f.split(","));
+
+        const encabezados = filas[0];
+        const registros = filas.slice(1);
+
+        // Generar encabezados
+        const theadHTML = encabezados.map(h => `<th>${h}</th>`).join("");
+        document.getElementById("tabla-head").innerHTML = `<tr>${theadHTML}</tr>`;
+
+        // Generar filas
+        const tbodyHTML = registros.map(fila =>
+            `<tr>${fila.map(celda => `<td>${celda}</td>`).join("")}</tr>`
+        ).join("");
+        document.getElementById("tabla-body").innerHTML = tbodyHTML;
+    }
+
+    // Buscador
+    document.getElementById("buscador").addEventListener("input", function () {
+        const filtro = this.value.toLowerCase();
+        const filas = document.querySelectorAll("#tabla-jugadores tbody tr");
+
+        filas.forEach(fila => {
+            const texto = fila.innerText.toLowerCase();
+            fila.style.display = texto.includes(filtro) ? "" : "none";
+        });
+    });
+
+    cargarJugadores();
+</script>
+
+
+<!-- ========================================================= -->
+<!-- BOTÓN PITO – REINICIO DE PÁGINA -->
+<!-- ========================================================= -->
+
+<div class="ed-restart-container">
+    <img src="img/pito.png" class="shake" onclick="location.href='#top'" alt="Reiniciar página">
+</div>
+
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+
+<footer class="ed-footer">
+    <p>Estadio de Datos · Copa Mundial Sub-20 Chile 2025</p>
+</footer>
+
+</body>
+</html>
+
 
 </body>
 </html>
