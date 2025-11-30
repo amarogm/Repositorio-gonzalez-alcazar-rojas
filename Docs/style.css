@@ -427,3 +427,31 @@ main {
         margin-bottom: 1rem;
     }
 }
+/* Contenedor para texto + imagen al lado */
+.ed-flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Tamaño de las imágenes pequeñas */
+.mini-img {
+    width: 130px;   /* ajusta si lo quieres más chico */
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 768px) {
+    .ed-flex-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mini-img {
+        width: 150px;
+        margin-top: 10px;
+    }
+}
