@@ -381,3 +381,28 @@ p, li {
 .espacio {
     height: 18px;   /* Ajusta el tamaño si quieres más o menos espacio */
 }
+/* Espaciado entre líneas importantes */
+.spaced {
+    margin-bottom: 1.3rem;
+}
+
+/* Subtítulo interno */
+.ed-subtitle {
+    font-size: 1.4rem;
+    color: var(--verde-pasto);
+    margin-bottom: 1rem;
+}
+
+/* Texto narrativo */
+.ed-narrativa {
+    font-size: 1.14rem;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* Intro */
+.ed-intro {
+    font-size: 1.17rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
