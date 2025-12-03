@@ -1,4 +1,5 @@
 📊 Estadio de Datos — Narrativa, Estilo y Elementos Visuales
+
 🧭 1. Estructura Narrativa
 
 La estructura narrativa que definimos para nuestro sitio web se centró en la simplicidad y en la facilidad de navegación para el usuario, sin sacrificar profundidad. Desde el inicio buscamos que la experiencia fuera altamente interactiva, permitiendo que cada clic llevara a nuevos análisis y perspectivas: desde los jugadores y sus minutos disputados, hasta comparaciones entre selecciones.
