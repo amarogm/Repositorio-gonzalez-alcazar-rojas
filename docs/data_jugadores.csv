@@ -1,0 +1,462 @@
+nombre,min_jugados,país,posición,edad
+Sebastián Mella,0.00,Chile,Arquero,20
+Ignacio Sáez,0.00,Chile,Arquero,20
+Gabriel Maureira,0.00,Chile,Arquero,18
+Ian Garguez,174.00,Chile,Defensa,20
+Matías Pérez,1190.00,Chile,Defensa,20
+Nicolás Suárez,61.00,Chile,Defensa,20
+Felipe Faúndez,1426.00,Chile,Defensa,19
+Patricio Romero,1664.00,Chile,Defensa,20
+Milován Celis,308.00,Chile,Defensa,19
+Joaquín Silva,281.00,Chile,Mediocampista,20
+Lautaro Millán,1325.00,Chile,Mediocampista,20
+Agustín Arce,419.00,Chile,Mediocampista,20
+Nicolás Cárcamo,257.00,Chile,Mediocampista,20
+Mario Sandoval,358.00,Chile,Mediocampista,18
+Flavio Moya,405.00,Chile,Mediocampista,19
+Willy Chatiliez,187.00,Chile,Delantero,20
+Francisco Rossel,722.00,Chile,Delantero,20
+Francisco Marchant,640.00,Chile,Delantero,19
+Rodrigo Godoy,1825.00,Chile,Delantero,20
+Vicente Álvarez,1520.00,Chile,Delantero,18
+Emiliano Ramos,1396.00,Chile,Delantero,20
+Rui Araki,1170.00,Japón,Arquero,18
+Alexandre Pisano,1579.00,Japón,Arquero,19
+Keisuke Nakamura,0.00,Japón,Arquero,20
+Kazunari Kita,90.00,Japón,Defensa,20
+Rion Ichihara,2115.00,Japón,Defensa,20
+Keita Kosugi,3.73,Japón,Defensa,19
+Soichiro Mori,825.00,Japón,Defensa,18
+Harumichi Shiokawa,0.00,Japón,Defensa,20
+Rei Umeki,1663.00,Japón,Defensa,20
+Nelson Ishiwatari,1841.00,Japón,Mediocampista,20
+Yuto Ozeki,653.00,Japón,Mediocampista,19
+Ryunosuke Sato,1684.00,Japón,Mediocampista,19
+Yotaro Nakajima,1637.00,Japón,Mediocampista,20
+Kosei Ogura,90.00,Japón,Mediocampista,20
+Yumeki Yokoyama,1343.00,Japón,Mediocampista,20
+Shunsuke Saito,1308.00,Japón,Mediocampista,20
+Sora Hiraga,382.00,Japón,Delantero,20
+Hisatsugu Ishii,339.00,Japón,Delantero,20
+Hagumu Nakagawa,0.00,Japón,Delantero,18
+Rento Takaoka,0.00,Japón,Delantero,19
+Soma Kanda,364.00,Japón,Delantero,19
+Henry Gray,2250.00,Nueva Zelanda,Arquero,20
+Joseph Wallis,750.00,Nueva Zelanda,Arquero,19
+Josey Casa-Grande,540.00,Nueva Zelanda,Arquero,19
+Jayden Smith,449.00,Nueva Zelanda,Defensa,19
+Lukas Kelly-Heald,1356.00,Nueva Zelanda,Defensa,19
+Noah Dupont,2481.00,Nueva Zelanda,Defensa,19
+Codey Phoenix,1223.00,Nueva Zelanda,Defensa,19
+James Bulkeley,695.00,Nueva Zelanda,Defensa,19
+Xuan Loke,930.00,Nueva Zelanda,Defensa,18
+Fergus Gillion,524.00,Nueva Zelanda,Mediocampista,19
+Stipe Ukich,84.00,Nueva Zelanda,Mediocampista,19
+Finn Mckenlay,1223.00,Nueva Zelanda,Mediocampista,19
+Oliver Middleton,1059.00,Nueva Zelanda,Mediocampista,18
+Nathan Walker,795.00,Nueva Zelanda,Mediocampista,19
+Keegan Kelly,0.00,Nueva Zelanda,Delantero,19
+Luke Supyk,603.00,Nueva Zelanda,Delantero,18
+Gabriel Sloane-Rodrigues,548.00,Nueva Zelanda,Delantero,18
+Adama Coulibaly,1232.00,Nueva Zelanda,Delantero,19
+Ryan Watson,773.00,Nueva Zelanda,Delantero,20
+Luke Brooke-Smith,770.00,Nueva Zelanda,Delantero,19
+Troy Putt,866.00,Nueva Zelanda,Delantero,19
+Abdel Monem Tamer,90.00,Egipto,Arquero,19
+Ahmed El Menshawy,0.00,Egipto,Arquero,20
+Ahmed Waheb,0.00,Egipto,Arquero,19
+Moataz Mohamed,90.00,Egipto,Defensa,20
+Ahmed Abdin,87.00,Egipto,Defensa,19
+Abdallah Boustenji,0.00,Egipto,Defensa,20
+Mohab Samy,22.00,Egipto,Defensa,20
+Momen Sherif,0.00,Egipto,Defensa,19
+Ahmed Nayel,0.00,Egipto,Defensa,20
+Selim Telib,1016.00,Egipto,Mediocampista,19
+Mohamed El Sayed,487.00,Egipto,Mediocampista,20
+Amr Khaled,959.00,Egipto,Mediocampista,20
+Seif El Deen Essam,0.00,Egipto,Mediocampista,20
+Ahmed Wahid,0.00,Egipto,Mediocampista,20
+Tebo Gabriel,2176.00,Egipto,Mediocampista,20
+Mohamed Ali,0.00,Egipto,Mediocampista,18
+Ahmed Sharaf,12.00,Egipto,Delantero,20
+Omar Khedr,209.00,Egipto,Delantero,18
+Mohamed Haitham,0.00,Egipto,Delantero,20
+Hamed Abdallah,282.00,Egipto,Delantero,19
+Ahmed Gomma,0.00,Egipto,Delantero,19
+Omar Moawad,0.00,Egipto,Delantero,20
+Yassin Atef,0.00,Egipto,Delantero,20
+Sviatoslav Vanivskyi,540.00,Ucrania,Arquero,20
+Vladyslav Krapyvtsov,180.00,Ucrania,Arquero,20
+Markiian Bakus,900.00,Ucrania,Arquero,19
+Vitalii Katrych,2302.00,Ucrania,Defensa,20
+Mykola Kyrychok,2059.00,Ucrania,Defensa,19
+Vladyslav Kysil,0.00,Ucrania,Defensa,20
+Daniel Vernattus,1533.00,Ucrania,Defensa,19
+Maksym Derkach,614.00,Ucrania,Defensa,20
+Oleksii Gusev,593.00,Ucrania,Defensa,20
+Maksym Melnychenko,1337.00,Ucrania,Mediocampista,20
+Artur Shakh,877.00,Ucrania,Mediocampista,20
+Daniil Vashchenko,1035.00,Ucrania,Mediocampista,20
+Danylo Krevsun,1163.00,Ucrania,Mediocampista,20
+Yaroslav Karaman,1525.00,Ucrania,Mediocampista,20
+Bohdan Budko,2277.00,Ucrania,Mediocampista,19
+Matviy Panchenko,945.00,Ucrania,Mediocampista,19
+Kyrylo Dihtiar,1388.00,Ucrania,Mediocampista,18
+Matvii Ponomarenko,1702.00,Ucrania,Delantero,19
+Hennadii Synchuk,1457.00,Ucrania,Delantero,19
+Kristian Shevchenko,202.00,Ucrania,Delantero,18
+Oleksandr Pishchur,1921.00,Ucrania,Delantero,20
+Gong Si-hyeon,720.00,Corea del Sur,Arquero,20
+Hong Seong-Min,180.00,Corea del Sur,Arquero,20
+Park Sang-Young,540.00,Corea del Sur,Arquero,20
+Ko Jong-Hyun,806.00,Corea del Sur,Defensa,19
+Choi Seung-Gu,1034.00,Corea del Sur,Defensa,19
+Bae Hyun-Seo,90.00,Corea del Sur,Defensa,20
+Shin Min-Ha,2200.00,Corea del Sur,Defensa,20
+Lee Kun-Hee,1904.00,Corea del Sur,Defensa,20
+Ham Sun-Woo,1966.00,Corea del Sur,Defensa,20
+Lim Jun-Young,1146.00,Corea del Sur,Defensa,19
+Son Seung-Min,1608.00,Corea del Sur,Mediocampista,19
+Kim Ho-Jin,0.00,Corea del Sur,Mediocampista,19
+Shin Sung,164.00,Corea del Sur,Mediocampista,20
+Chung Ma-Ho,1375.00,Corea del Sur,Mediocampista,20
+Choi Byung-Wook,671.00,Corea del Sur,Mediocampista,20
+Kim Jun-Ha,205.00,Corea del Sur,Delantero,20
+Kim Hyun-Min,474.00,Corea del Sur,Delantero,19
+Kim Tae-won,1412.00,Corea del Sur,Delantero,20
+Kim Hyeon-Oh,259.00,Corea del Sur,Delantero,20
+Baek Ga-On,922.00,Corea del Sur,Delantero,20
+Baek Min-Gyu,236.00,Corea del Sur,Delantero,20
+Facundo Insfrán,476.00,Paraguay,Arquero,19
+Victor Rojas,0.00,Paraguay,Arquero,19
+Fransisco Mongelos,208.00,Paraguay,Arquero,20
+Matías Arguello,328.00,Paraguay,Defensa,19
+Axel Balbuena,781.00,Paraguay,Defensa,19
+Diego León,994.00,Paraguay,Defensa,18
+Lucas Quintana,2030.00,Paraguay,Defensa,20
+Diego Ramos,0.00,Paraguay,Defensa,20
+Alan Morinigo,551.00,Paraguay,Defensa,20
+Gian Paoli,0.00,Paraguay,Defensa,20
+Lucas Peralta,0.00,Paraguay,Defensa,20
+Alexis Fretes,549.00,Paraguay,Mediocampista,20
+Ezequiel Duarte,0.00,Paraguay,Mediocampista,19
+Ángel Aguayo,1338.00,Paraguay,Mediocampista,19
+Gabriel Aguayo,959.00,Paraguay,Mediocampista,20
+Santiago Puzzo,1080.00,Paraguay,Mediocampista,18
+Lucas Guiñazú,180.00,Paraguay,Delantero,19
+Tiago Caballero,943.00,Paraguay,Delantero,20
+Luca Kmet,166.00,Paraguay,Delantero,20
+César Miño,326.00,Paraguay,Delantero,18
+David Fernández,859.00,Paraguay,Delantero,19
+Octavio Alfonso,102.00,Paraguay,Delantero,19
+Anderson Legüizamón,560.00,Paraguay,Delantero,19
+Ian Flores,0.00,Panamá,Arquero,20
+Cecilio Burgess,855.00,Panamá,Arquero,20
+Sean Deane,90.00,Panamá,Arquero,19
+Joseph Jones,1638.00,Panamá,Defensa,20
+Julio Rodríguez,1785.00,Panamá,Defensa,20
+Luis Villarreal,950.00,Panamá,Defensa,20
+Érick Díaz,1785.00,Panamá,Defensa,20
+Juan Hall,1121.00,Panamá,Defensa,19
+Martín Krug,0.00,Panamá,Defensa,19
+Ángelo Gudiño,0.00,Panamá,Mediocampista,20
+Ariel Arroyo,891.00,Panamá,Mediocampista,20
+Antony Herbert,810.00,Panamá,Mediocampista,20
+Samir Díaz,540.00,Panamá,Mediocampista,19
+Ernesto Gómez,1406.00,Panamá,Mediocampista,18
+Giovani Herbert,323.00,Panamá,Delantero,20
+Anel Ryce,1031.00,Panamá,Delantero,19
+Javier Arboleda,238.00,Panamá,Delantero,19
+Gustavo Herrera,879.00,Panamá,Delantero,19
+Rafael Mosquera,1244.00,Panamá,Delantero,20
+Kayro Walters,0.00,Panamá,Delantero,20
+Kevin Walder,914.00,Panamá,Delantero,19
+Karlo Kurányi,1665.00,Panamá,Delantero,20
+Raheen Cuello,0.00,Panamá,Delantero,18
+Ryan Gómez,703.00,Panamá,Delantero,19
+Otávio Costa,720.00,Brasil,Arquero,20
+Lucas Furtado,1350.00,Brasil,Arquero,20
+Pedro Cobra,1890.00,Brasil,Arquero,20
+Jair Paula,1911.00,Brasil,Defensa,20
+Iago Teodoro,1886.00,Brasil,Defensa,20
+Gilberto Junior,2600.00,Brasil,Defensa,20
+João Victor,815.00,Brasil,Defensa,18
+Arthur Gabriel,2593.00,Brasil,Defensa,20
+Bruno Alves,2390.00,Brasil,Defensa,20
+Rayan Lucas,1986.00,Brasil,Defensa,20
+João Cruz,1155.00,Brasil,Mediocampista,19
+Gustavo Prado,747.00,Brasil,Mediocampista,20
+Gabriel Moscardo,256.00,Brasil,Mediocampista,20
+Leandrinho,652.00,Brasil,Mediocampista,20
+Igor Schlemper,864.00,Brasil,Mediocampista,20
+Rafael Coutinho,2633.00,Brasil,Mediocampista,20
+Isaque,713.00,Brasil,Delantero,18
+Matheus Alves,1451.00,Brasil,Delantero,20
+Lucas Ferreira,2005.00,Brasil,Delantero,18
+Murilo Rhikman,1690.00,Brasil,Delantero,19
+Erick Machado,2268.00,Brasil,Delantero,18
+Pedro Henrique,2036.00,Brasil,Delantero,20
+Nathan Fernandes,546.00,Brasil,Delantero,20
+Luighi Hanri,1153.00,Brasil,Delantero,19
+Kaique Kenji,1540.00,Brasil,Delantero,19
+Luca Meirelles,1509.00,Brasil,Delantero,18
+Juan Liceaga,1710.00,México,Arquero,18
+Emmanuel Ochoa,1350.00,México,Arquero,20
+Pablo Lara,1710.00,México,Arquero,19
+Diego Ochoa,2161.00,México,Defensa,20
+César Bustos,2146.00,México,Defensa,20
+José Pachuca,1617.00,México,Defensa,20
+Everardo López,1629.00,México,Defensa,20
+Obed Vargas,3380.00,México,Mediocampista,20
+Elías Montiel,3410.00,México,Mediocampista,19
+Iker Fimbres,2248.00,México,Mediocampista,20
+Gilberto Mora,1678.00,México,Mediocampista,17
+Karol Velázquez,1972.00,México,Mediocampista,20
+Hugo Camberos,2158.00,México,Mediocampista,18
+César Garza,848.00,México,Mediocampista,20
+Amaury Morales,2251.00,México,Mediocampista,19
+Juan Uribe,1979.00,México,Mediocampista,19
+Alexéi Domínguez,1691.00,México,Delantero,20
+Ángel Chavez,1535.00,México,Delantero,19
+Tahiel Jiménez,1226.00,México,Delantero,19
+Jonathan Padilla,1224.00,México,Delantero,19
+Oswaldo Virgen,1766.00,México,Delantero,20
+Diego Sánchez,756.00,México,Delantero,19
+Mateo Levy,437.00,México,Delantero,19
+Fran González,270.00,España,Arquero,20
+Vicent Abril,1800.00,España,Arquero,20
+Raúl Jiménez,90.00,España,Arquero,19
+Jon Martín,1335.00,España,Defensa,19
+Pau Navarro,1317.00,España,Defensa,20
+Andrés Cuenca,1809.00,España,Defensa,18
+Diego Aguado,1009.00,España,Defensa,18
+Jesús Fortea,1005.00,España,Defensa,18
+Rodrigo Mendoza,1065.00,España,Defensa,20
+Joel Roca,883.00,España,Mediocampista,20
+Izan Merino,1278.00,España,Mediocampista,19
+Cristian Perea,2627.00,España,Mediocampista,20
+Julio Díaz,2574.00,España,Mediocampista,20
+Peio Canales,1872.00,España,Mediocampista,20
+Thiago Pitarch,32.00,España,Delantero,18
+Iker Bravo,797.00,España,Delantero,20
+David Mella,2754.00,España,Delantero,20
+Rayane Belaid,2923.00,España,Delantero,20
+Adrián Liso,2554.00,España,Delantero,20
+Pablo García,1780.00,España,Delantero,19
+Jan Virgili,1700.00,España,Delantero,19
+Abdelhakim El Mesbahi,90.00,Marruecos,Arquero,20
+Yanis Benchaouch,831.00,Marruecos,Arquero,19
+Ibrahim Gomis,540.00,Marruecos,Arquero,20
+Ismaël Baouf,1996.00,Marruecos,Defensa,19
+Fouad Zahouani,724.00,Marruecos,Defensa,19
+Hamza Koutoune,555.00,Marruecos,Defensa,19
+Ismaïl Bakhty,454.00,Marruecos,Defensa,18
+Ali Maamar,2337.00,Marruecos,Defensa,20
+Takha Majni,172.00,Marruecos,Defensa,18
+Mohammed Kebdani,90.00,Marruecos,Defensa,19
+Naim Byar,1701.00,Marruecos,Defensa,20
+Yassine Khalifi,1619.00,Marruecos,Mediocampista,20
+Mohammed Hamony,478.00,Marruecos,Mediocampista,19
+Saad El Haddad,378.00,Marruecos,Mediocampista,20
+Anas Tajaouart,1557.00,Marruecos,Mediocampista,20
+Hossam Essadak,1636.00,Marruecos,Mediocampista,20
+Ilias Boumassaoudi,1051.00,Marruecos,Mediocampista,20
+Othmane Maamma,476.00,Marruecos,Delantero,20
+Gessime Yassine,1857.00,Marruecos,Delantero,19
+Yassir Zabiri,498.00,Marruecos,Delantero,20
+Younes El Bahraoui,597.00,Marruecos,Delantero,20
+Jacopo Seghetti,0.00,Italia,Arquero,20
+Alessandro Nunziante,2746.00,Italia,Arquero,18
+Lapo Siviero,1574.00,Italia,Arquero,18
+Wisdom Amey,75.00,Italia,Defensa,20
+Christian Corradi,990.00,Italia,Defensa,20
+Mattia Mannini,1388.00,Italia,Defensa,19
+Fellipe Jack,890.00,Italia,Defensa,19
+Andrea Natali,2103.00,Italia,Defensa,17
+Cristian Cama,1594.00,Italia,Defensa,18
+Emanuel Benjamín,421.00,Italia,Defensa,18
+Alessandro Berretta,3089.00,Italia,Mediocampista,19
+Jacopo Sardo,1573.00,Italia,Mediocampista,20
+Lorenzo Riccio,2203.00,Italia,Mediocampista,19
+Javison Idele,2026.00,Italia,Mediocampista,18
+Emanuele Sala,2696.00,Italia,Mediocampista,17
+Okoro Obinna,1903.00,Italia,Delantero,20
+Marco Romano,1146.00,Italia,Delantero,19
+Mattia Liberali,2513.00,Italia,Delantero,18
+Ismael Konaté,1116.00,Italia,Delantero,19
+Mattia Mosconi,1913.00,Italia,Delantero,18
+Steven Hall,780.00,Australia,Arquero,20
+Daniel Graskoski,900.00,Australia,Arquero,19
+Panagiotis Kikianis,600.00,Australia,Defensa,19
+Joshua Inserra,506.00,Australia,Defensa,19
+Sebastian Esposito,576.00,Australia,Defensa,20
+James Overy,256.00,Australia,Defensa,18
+Zach Lisolajski,329.00,Australia,Defensa,19
+Liam Bonetig,0.00,Australia,Defensa,19
+Lucas Herrington,212.00,Australia,Defensa,20
+Jonny Yull,464.00,Australia,Defensa,19
+Alexander Badolato,849.00,Australia,Mediocampista,20
+Rhys Youlley,235.00,Australia,Mediocampista,19
+Jaylan Pearman,464.00,Australia,Mediocampista,19
+Fabian Talladira,1810.00,Australia,Mediocampista,19
+Paul Okon,892.00,Australia,Mediocampista,19
+Louis Agosti,240.00,Australia,Mediocampista,20
+Max Caputo,1223.00,Australia,Delantero,19
+Luka Jovanovic,2131.00,Australia,Delantero,19
+Musa Toure,811.00,Australia,Delantero,19
+Daniel Bennie,724.00,Australia,Delantero,19
+Nathan Amanatidis,607.00,Australia,Delantero,19
+Tiago Quintal,1237.00,Australia,Delantero,20
+Santino Barbi,270.00,Argentina,Arquero,20
+Álvaro Busso,0.00,Argentina,Arquero,19
+Alain Gómez,0.00,Argentina,Arquero,18
+Santiago Fernández,1161.00,Argentina,Defensa,19
+Dylan Gorosito,592.00,Argentina,Defensa,18
+Tobías Palacio,420.00,Argentina,Defensa,18
+Valente Pierani,303.00,Argentina,Defensa,19
+Teo Rodríguez,238.00,Argentina,Defensa,20
+Juan Villalba,431.00,Argentina,Defensa,19
+Valentino Acuña,700.00,Argentina,Mediocampista,19
+Tomás Pérez,1368.00,Argentina,Mediocampista,19
+Alvaro Montoro,751.00,Argentina,Mediocampista,18
+Tobias Andrada,378.00,Argentina,Mediocampista,18
+Milton Delgado,826.00,Argentina,Mediocampista,20
+Alejo Sarco,196.00,Argentina,Delantero,19
+Ian Subiabre,544.00,Argentina,Delantero,18
+Maher Carrizo,836.00,Argentina,Delantero,19
+Santino Andino,1313.00,Argentina,Delantero,20
+Mateo Silvetti,220.00,Argentina,Delantero,19
+Duran Ferree,270.00,Estados Unidos,Arquero,19
+Adam Beaudry,1770.00,Estados Unidos,Arquero,19
+Diego Kochen,1440.00,Estados Unidos,Arquero,19
+Joshua Wynder,2449.00,Estados Unidos,Defensa,19
+Noah Cobb,2263.00,Estados Unidos,Defensa,19
+Matai Akinmboni,809.00,Estados Unidos,Defensa,19
+Nolan Norris,2380.00,Estados Unidos,Defensa,20
+Ethan Kohler,108.00,Estados Unidos,Defensa,19
+Francis Westfield,1715.00,Estados Unidos,Defensa,19
+Luca Bombino,1860.00,Estados Unidos,Defensa,19
+Reed Baker-Whiting,1358.00,Estados Unidos,Defensa,20
+Luke Brennan,1290.00,Estados Unidos,Mediocampista,20
+Matthew Corcoran,401.00,Estados Unidos,Mediocampista,20
+Brooklyn Raines,1656.00,Estados Unidos,Mediocampista,19
+Niko Tsakiris,2060.00,Estados Unidos,Mediocampista,19
+Benjamin Cremaschi,1830.00,Estados Unidos,Mediocampista,19
+Taha Habroune,1016.00,Estados Unidos,Mediocampista,18
+David Vazquez,2104.00,Estados Unidos,Delantero,19
+Pedro Soma,2167.00,Estados Unidos,Delantero,19
+Serge Ngoma,185.00,Estados Unidos,Delantero,20
+Zavier Gozo,1509.00,Estados Unidos,Delantero,19
+Cole Campbell,988.00,Estados Unidos,Delantero,18
+Marcos Zambrano-Delgado,420.00,Estados Unidos,Delantero,19
+Fletcher Lowe,718.00,Sudáfrica,Arquero,18
+Takalani Mazhamba,0.00,Sudáfrica,Arquero,18
+Kgoleng Ratisani,0.00,Sudáfrica,Arquero,19
+Asekho Tiwani,949.00,Sudáfrica,Defensa,20
+Neo Rapoo,1517.00,Sudáfrica,Defensa,20
+Siviwe Nkwali,810.00,Sudáfrica,Defensa,20
+Tylon Smith,0.00,Sudáfrica,Defensa,20
+Thato Sibiya,0.00,Sudáfrica,Defensa,19
+Sfiso Timba,584.00,Sudáfrica,Defensa,19
+Shakeel April,480.00,Sudáfrica,Mediocampista,19
+Mfundo Vilakazi,802.00,Sudáfrica,Mediocampista,19
+Siviwe Magidigidi,636.00,Sudáfrica,Mediocampista,20
+Kutlwano Letlhaku,474.00,Sudáfrica,Mediocampista,19
+Patrick Autata,89.00,Sudáfrica,Mediocampista,20
+Gomolemo Kekana,0.00,Sudáfrica,Delantero,19
+Lazola Maku,630.00,Sudáfrica,Delantero,18
+Siyabonga Mabena,73.00,Sudáfrica,Delantero,18
+Luke Baartman,429.00,Sudáfrica,Delantero,19
+Thabang Mahlangu,93.00,Sudáfrica,Delantero,20
+Ahshene Jody Lee,602.00,Sudáfrica,Delantero,19
+Langelihle Phili,1168.00,Sudáfrica,Delantero,20
+Alexis Mirbach,1216.00,Francia,Arquero,19
+Justin Bengui Joao,1080.00,Francia,Arquero,19
+Lisandru Olmeta,1980.00,Francia,Arquero,20
+Steven Baseya,2184.00,Francia,Defensa,19
+Aboubaka Soumahoro,593.00,Francia,Defensa,19
+Jaydee Canvot,1587.00,Francia,Defensa,19
+Elyaz Zidane,582.00,Francia,Defensa,20
+Gady Beyuku,596.00,Francia,Defensa,20
+Bradel Kiwa,1343.00,Francia,Defensa,19
+Justin Bourgault,1208.00,Francia,Mediocampista,20
+Mayssam Benama,612.00,Francia,Mediocampista,19
+Dehmaine Assoumani,551.00,Francia,Mediocampista,19
+Rabby Nzingoula,1697.00,Francia,Mediocampista,19
+Anthony Bermont,1713.00,Francia,Mediocampista,20
+Darryl Bakola,0.00,Francia,Mediocampista,20
+Aladji Bamba,1165.00,Francia,Mediocampista,19
+Khalis Merah,1517.00,Francia,Mediocampista,19
+Ilane Touré,2170.00,Francia,Mediocampista,20
+Steve Ngoura,705.00,Francia,Delantero,20
+Lucas Michel,0.00,Francia,Delantero,19
+Joan Tincres,879.00,Francia,Delantero,20
+Robinio Vaz,1367.00,Francia,Delantero,19
+Keyliane Abdallah,1602.00,Francia,Delantero,18
+Mathys Detourbet,1274.00,Francia,Delantero,19
+Alexei Rojas,0.00,Colombia,Arquero,20
+Jordan García,1980.00,Colombia,Arquero,20
+Luis Mena,360.00,Colombia,Arquero,20
+Juan David Arizala,770.00,Colombia,Defensa,20
+Julián Bazán,557.00,Colombia,Defensa,19
+Yeimar Mosquera,734.00,Colombia,Defensa,20
+Carlos Sarabia,178.00,Colombia,Defensa,20
+Keimer Sandoval,210.00,Colombia,Defensa,20
+Weimar Vivas,400.00,Colombia,Defensa,18
+Kevin Álvarez,1520.00,Colombia,Mediocampista,20
+Simón García,654.00,Colombia,Mediocampista,20
+Elkin Rivero,960.00,Colombia,Mediocampista,19
+José Cavadía,1097.00,Colombia,Mediocampista,20
+Joel Romero,882.00,Colombia,Mediocampista,19
+Jhon Rentería,962.00,Colombia,Mediocampista,20
+Alejandro Ararat,712.00,Colombia,Mediocampista,19
+Kener González,1116.00,Colombia,Mediocampista,20
+Jhon Guzmán,2145.00,Colombia,Mediocampista,20
+Royner Benítez,490.00,Colombia,Mediocampista,20
+Jordan Barrera,745.00,Colombia,Mediocampista,19
+Neyser Villareal,0.00,Colombia,Delantero,20
+Óscar Perea,689.00,Colombia,Delantero,20
+John Montaño,141.00,Colombia,Delantero,19
+Emilio Aristizábal,1826.00,Colombia,Delantero,20
+Joel Canchimbo,93.00,Colombia,Delantero,20
+Rufai Abubakar,0.00,Nigeria,Arquero,17
+Ebenezer Harcourt,90.00,Nigeria,Arquero,16
+Clinton Ezekiel,1260.00,Nigeria,Arquero,20
+Daniel Bameyi,990.00,Nigeria,Defensa,19
+Odinaka Okoro,22.00,Nigeria,Defensa,20
+Ahmed Akinyele,2518.00,Nigeria,Defensa,19
+Azuka Alatan,0.00,Nigeria,Defensa,19
+Amos Ochoche,651.00,Nigeria,Defensa,19
+Marvelous Freedom,1492.00,Nigeria,Defensa,20
+Daniel Daga,1570.00,Nigeria,Mediocampista,18
+Israel Ayuma,718.00,Nigeria,Mediocampista,19
+Auwal Ibrahim,82.00,Nigeria,Mediocampista,19
+Emmanuel Ekele,62.00,Nigeria,Mediocampista,20
+Kamaldeen Mustapha,0.00,Nigeria,Mediocampista,19
+Sani Suleiman,1400.00,Nigeria,Mediocampista,20
+Orseer Achihi,160.00,Nigeria,Delantero,19
+Kparobo Arierhi,579.00,Nigeria,Delantero,20
+Tahir Maigana,110.00,Nigeria,Delantero,19
+Charles Agada,0.00,Nigeria,Delantero,19
+Salihu Nasiru,1297.00,Nigeria,Delantero,20
+Abdullahi Shitu,0.00,Nigeria,Delantero,19
+Magnus Brondbo,1530.00,Noruega,Arquero,20
+Sander Østraat,1170.00,Noruega,Arquero,20
+Einar Fauskanger,1170.00,Noruega,Arquero,17
+Hakon Rosten,1970.00,Noruega,Defensa,20
+Rasmus Holten,1243.00,Noruega,Defensa,20
+Vetle Auklend,1024.00,Noruega,Defensa,20
+Jonathan Norbye,3287.00,Noruega,Defensa,18
+Tobias Moi,325.00,Noruega,Defensa,19
+Mathias Øren,661.00,Noruega,Defensa,19
+Luca Høyland,1517.00,Noruega,Defensa,19
+Ola Visted,2012.00,Noruega,Mediocampista,20
+Kasper Sætherbø,1152.00,Noruega,Mediocampista,20
+Sondre Granaas,1189.00,Noruega,Mediocampista,19
+Lars Remmem,978.00,Noruega,Mediocampista,19
+Martin Håheim-Elveseter,1213.00,Noruega,Delantero,19
+David De Ornelas,1361.00,Noruega,Delantero,17
+Magnus Holte,277.00,Noruega,Delantero,19
+Casper Andersen,9.00,Noruega,Delantero,20
+Bork Bang-Kittilsen,330.00,Noruega,Delantero,20
+Markus Haaland,899.00,Noruega,Delantero,20
