@@ -406,3 +406,67 @@ p, li {
     font-weight: 400;
     line-height: 1.6;
 }
+/* =========================================================
+   SECCIONES DE GRÁFICOS (PAÍS POR PAÍS)
+========================================================= */
+
+.ed-grafico-section {
+    margin: 3.5rem 0;
+    padding: 2.2rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.40);
+    backdrop-filter: blur(3px);
+}
+
+.ed-grafico-title {
+    font-size: 1.6rem;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 1.4rem;
+    color: var(--verde-pasto);
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(126,217,87,0.4);
+}
+
+/* Caja donde irá el gráfico */
+.ed-grafico-box {
+    width: 100%;
+    height: 350px;       /* Ajusta según el alto de tus gráficos */
+    background: rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 14px rgba(0,0,0,0.4);
+}
+
+/* Texto temporal dentro del gráfico */
+.ed-grafico-placeholder {
+    color: rgba(255,255,255,0.4);
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Caja de análisis debajo del gráfico */
+.ed-grafico-analisis {
+    background: rgba(0,0,0,0.22);
+    padding: 1.4rem 1.6rem;
+    border-radius: 14px;
+    border-left: 3px solid var(--verde-pasto);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.35);
+}
+
+.ed-grafico-analisis p {
+    font-size: 1.12rem;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.ed-grafico-iframe {
+    width: 100%;
+    height: 400px;/* Puedes subir a 560px si quieres más holgura */
+    border: none;
+    border-radius: 14px;
+}
