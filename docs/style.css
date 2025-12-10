@@ -470,3 +470,64 @@ p, li {
     border: none;
     border-radius: 14px;
 }
+.glass {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+.fade-left {
+    opacity: 0;
+    transform: translateX(-35px);
+    animation: fadeInLeft 1s ease forwards;
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.ed-section h2:hover {
+    color: var(--verde-pasto);
+    text-shadow: 0 0 8px rgba(126,217,87,0.5);
+    transition: .3s;
+}
+img:hover {
+    box-shadow: 0 0 20px rgba(126,217,87,0.4);
+}
+.ed-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(8px);
+    padding: .6rem 1rem;
+}
+.ed-conclusion {
+    padding: 4rem 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ed-conclusion-box {
+    max-width: 950px;
+    padding: 2.5rem 2rem;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(126,217,87,0.25);
+    border-radius: 18px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.45), 0 0 20px rgba(0,0,0,0.2);
+}
+
+.ed-conclusion-title {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--verde-pasto);
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
